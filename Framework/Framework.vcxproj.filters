@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Array">
+      <UniqueIdentifier>{e14ef10a-2d49-49f4-a10d-52e55269e124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Puntero">
+      <UniqueIdentifier>{a7bbd5d3-8bb1-4089-81d4-c36c8220925d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cadena">
+      <UniqueIdentifier>{64b919da-71e1-479a-9494-cda31ba6d073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Comparador">
+      <UniqueIdentifier>{0ecd25b3-902e-4f61-a26a-1a2824b3dfdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hash">
+      <UniqueIdentifier>{fdabfc3f-c008-4cdb-8042-5b992c715c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iterable">
+      <UniqueIdentifier>{8ffc6772-e382-4402-b2e1-547d25665d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matriz">
+      <UniqueIdentifier>{11ce1d04-1987-45fb-b099-a2296980041c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryShare">
+      <UniqueIdentifier>{1b2c51b7-e035-463d-a148-2b30900fa68c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pruebas">
+      <UniqueIdentifier>{83584663-d231-48fe-a6d1-7fd93ac2c591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tupla">
+      <UniqueIdentifier>{7704ef10-4cdc-4823-9d59-4d12f38e6bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Conversor">
+      <UniqueIdentifier>{cfe10f22-59e7-4b31-9eeb-8a1a512cbdab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Funciones">
+      <UniqueIdentifier>{8ce54018-d74b-418d-89fe-7309093be998}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Array.cpp">
+      <Filter>Array</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayIteracion.cpp">
+      <Filter>Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Puntero.cpp">
+      <Filter>Puntero</Filter>
+    </ClCompile>
+    <ClCompile Include="Cadena.cpp">
+      <Filter>Cadena</Filter>
+    </ClCompile>
+    <ClCompile Include="Comparador.cpp">
+      <Filter>Comparador</Filter>
+    </ClCompile>
+    <ClCompile Include="CadenaFuncionHash.cpp">
+      <Filter>Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcatIteracion.cpp">
+      <Filter>Iterable</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertIteracion.cpp">
+      <Filter>Iterable</Filter>
+    </ClCompile>
+    <ClCompile Include="Iterador.cpp">
+      <Filter>Iterable</Filter>
+    </ClCompile>
+    <ClCompile Include="Matriz.cpp">
+      <Filter>Matriz</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrizIteracion.cpp">
+      <Filter>Matriz</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryShare.cpp">
+      <Filter>MemoryShare</Filter>
+    </ClCompile>
+    <ClCompile Include="ConductorPrueba.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="EstadisticaPrueba.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="ManejadorImpresion.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="ManejadorImpresionTxt.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="ManejadorImpresionXml.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="Prueba.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebaMemoria.cpp">
+      <Filter>Pruebas</Filter>
+    </ClCompile>
+    <ClCompile Include="Tupla.cpp">
+      <Filter>Tupla</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Array.h">
+      <Filter>Array</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayIteracion.h">
+      <Filter>Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Puntero.h">
+      <Filter>Puntero</Filter>
+    </ClInclude>
+    <ClInclude Include="Cadena.h">
+      <Filter>Cadena</Filter>
+    </ClInclude>
+    <ClInclude Include="Comparador.h">
+      <Filter>Comparador</Filter>
+    </ClInclude>
+    <ClInclude Include="CadenaFuncionHash.h">
+      <Filter>Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncionHash.h">
+      <Filter>Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="IntFuncionHash.h">
+      <Filter>Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="LongFuncionHash.h">
+      <Filter>Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="NaturalFuncionHash.h">
+      <Filter>Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcatIteracion.h">
+      <Filter>Iterable</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertIteracion.h">
+      <Filter>Iterable</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterable.h">
+      <Filter>Iterable</Filter>
+    </ClInclude>
+    <ClInclude Include="Iteracion.h">
+      <Filter>Iterable</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterador.h">
+      <Filter>Iterable</Filter>
+    </ClInclude>
+    <ClInclude Include="Matriz.h">
+      <Filter>Matriz</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrizIteracion.h">
+      <Filter>Matriz</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryShare.h">
+      <Filter>MemoryShare</Filter>
+    </ClInclude>
+    <ClInclude Include="ConductorPrueba.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="EstadisticaPrueba.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="ManejadorImpresion.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="ManejadorImpresionTxt.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="ManejadorImpresionXml.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="Prueba.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebaMemoria.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="TipoRetorno.h">
+      <Filter>Pruebas</Filter>
+    </ClInclude>
+    <ClInclude Include="Tupla.h">
+      <Filter>Tupla</Filter>
+    </ClInclude>
+    <ClInclude Include="Conversor.h">
+      <Filter>Conversor</Filter>
+    </ClInclude>
+    <ClInclude Include="ConversorCast.h">
+      <Filter>Conversor</Filter>
+    </ClInclude>
+    <ClInclude Include="ConversorIterableIterador.h">
+      <Filter>Conversor</Filter>
+    </ClInclude>
+    <ClInclude Include="ConversorTuplaDato1.h">
+      <Filter>Conversor</Filter>
+    </ClInclude>
+    <ClInclude Include="ConversorTuplaDato2.h">
+      <Filter>Conversor</Filter>
+    </ClInclude>
+    <ClInclude Include="ConversorTuplaDato3.h">
+      <Filter>Conversor</Filter>
+    </ClInclude>
+    <ClInclude Include="ConversorTuplaDato4.h">
+      <Filter>Conversor</Filter>
+    </ClInclude>
+    <ClInclude Include="Funcion.h">
+      <Filter>Funciones</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

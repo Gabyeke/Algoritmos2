@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BFEBC764-E943-4265-A9D5-85AFDBE712E7}</ProjectGuid>
+    <RootNamespace>Framework</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.61030.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>/IGNORE:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>/IGNORE:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Array.cpp" />
+    <ClCompile Include="ArrayIteracion.cpp" />
+    <ClCompile Include="Puntero.cpp" />
+    <ClCompile Include="Cadena.cpp" />
+    <ClCompile Include="Comparador.cpp" />
+    <ClCompile Include="CadenaFuncionHash.cpp" />
+    <ClCompile Include="ConcatIteracion.cpp" />
+    <ClCompile Include="ConvertIteracion.cpp" />
+    <ClCompile Include="Iterador.cpp" />
+    <ClCompile Include="Matriz.cpp" />
+    <ClCompile Include="MatrizIteracion.cpp" />
+    <ClCompile Include="MemoryShare.cpp" />
+    <ClCompile Include="ConductorPrueba.cpp" />
+    <ClCompile Include="EstadisticaPrueba.cpp" />
+    <ClCompile Include="ManejadorImpresion.cpp" />
+    <ClCompile Include="ManejadorImpresionTxt.cpp" />
+    <ClCompile Include="ManejadorImpresionXml.cpp" />
+    <ClCompile Include="Prueba.cpp" />
+    <ClCompile Include="PruebaMemoria.cpp" />
+    <ClCompile Include="Tupla.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Array.h" />
+    <ClInclude Include="ArrayIteracion.h" />
+    <ClInclude Include="Puntero.h" />
+    <ClInclude Include="Cadena.h" />
+    <ClInclude Include="Comparador.h" />
+    <ClInclude Include="CadenaFuncionHash.h" />
+    <ClInclude Include="FuncionHash.h" />
+    <ClInclude Include="IntFuncionHash.h" />
+    <ClInclude Include="LongFuncionHash.h" />
+    <ClInclude Include="NaturalFuncionHash.h" />
+    <ClInclude Include="ConcatIteracion.h" />
+    <ClInclude Include="ConvertIteracion.h" />
+    <ClInclude Include="Iterable.h" />
+    <ClInclude Include="Iteracion.h" />
+    <ClInclude Include="Iterador.h" />
+    <ClInclude Include="Matriz.h" />
+    <ClInclude Include="MatrizIteracion.h" />
+    <ClInclude Include="MemoryShare.h" />
+    <ClInclude Include="ConductorPrueba.h" />
+    <ClInclude Include="EstadisticaPrueba.h" />
+    <ClInclude Include="ManejadorImpresion.h" />
+    <ClInclude Include="ManejadorImpresionTxt.h" />
+    <ClInclude Include="ManejadorImpresionXml.h" />
+    <ClInclude Include="Prueba.h" />
+    <ClInclude Include="PruebaMemoria.h" />
+    <ClInclude Include="TipoRetorno.h" />
+    <ClInclude Include="Tupla.h" />
+    <ClInclude Include="Conversor.h" />
+    <ClInclude Include="ConversorCast.h" />
+    <ClInclude Include="ConversorIterableIterador.h" />
+    <ClInclude Include="ConversorTuplaDato1.h" />
+    <ClInclude Include="ConversorTuplaDato2.h" />
+    <ClInclude Include="ConversorTuplaDato3.h" />
+    <ClInclude Include="ConversorTuplaDato4.h" />
+    <ClInclude Include="Funcion.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

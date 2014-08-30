@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Set">
+      <UniqueIdentifier>{2f83505f-9af7-4682-bbbd-9267bd802f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Set\Acotado">
+      <UniqueIdentifier>{1249c670-f272-4000-92bd-286f927bbf09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Set\NoAcotado">
+      <UniqueIdentifier>{7e30051f-cf1a-4bbc-af3c-46215eca204a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Set.h">
+      <Filter>Set</Filter>
+    </ClInclude>
+    <ClInclude Include="SetAcotado.h">
+      <Filter>Set\Acotado</Filter>
+    </ClInclude>
+    <ClInclude Include="IteradorNoAcotado.h">
+      <Filter>Set\NoAcotado</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoSet.h">
+      <Filter>Set\NoAcotado</Filter>
+    </ClInclude>
+    <ClInclude Include="SetNoAcotado.h">
+      <Filter>Set\NoAcotado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SetAcotado.cpp">
+      <Filter>Set\Acotado</Filter>
+    </ClCompile>
+    <ClCompile Include="IteradorNoAcotado.cpp">
+      <Filter>Set\NoAcotado</Filter>
+    </ClCompile>
+    <ClCompile Include="SetNoAcotado.cpp">
+      <Filter>Set\NoAcotado</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
