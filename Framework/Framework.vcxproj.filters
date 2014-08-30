@@ -2,40 +2,40 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Array">
-      <UniqueIdentifier>{e14ef10a-2d49-49f4-a10d-52e55269e124}</UniqueIdentifier>
+      <UniqueIdentifier>{78ff55de-a494-48c2-80c7-6ef6a32c57b6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Puntero">
-      <UniqueIdentifier>{a7bbd5d3-8bb1-4089-81d4-c36c8220925d}</UniqueIdentifier>
+      <UniqueIdentifier>{f64a2b1a-4e72-4f97-951f-2b03ffa105b7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Cadena">
-      <UniqueIdentifier>{64b919da-71e1-479a-9494-cda31ba6d073}</UniqueIdentifier>
+      <UniqueIdentifier>{93819a49-ff66-4691-8668-1597b705a02b}</UniqueIdentifier>
     </Filter>
     <Filter Include="Comparador">
-      <UniqueIdentifier>{0ecd25b3-902e-4f61-a26a-1a2824b3dfdd}</UniqueIdentifier>
+      <UniqueIdentifier>{b2112bd7-2f5e-46ff-b0fa-f212e6563992}</UniqueIdentifier>
     </Filter>
     <Filter Include="Hash">
-      <UniqueIdentifier>{fdabfc3f-c008-4cdb-8042-5b992c715c26}</UniqueIdentifier>
+      <UniqueIdentifier>{f8ebf643-652e-43c4-8e3f-f7550ad2fad6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Iterable">
-      <UniqueIdentifier>{8ffc6772-e382-4402-b2e1-547d25665d68}</UniqueIdentifier>
+      <UniqueIdentifier>{a6cc42f4-1de5-4a9f-a82f-8e8bacd75ab6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Matriz">
-      <UniqueIdentifier>{11ce1d04-1987-45fb-b099-a2296980041c}</UniqueIdentifier>
+      <UniqueIdentifier>{89755dac-aa36-4480-96f7-634084e9e7f7}</UniqueIdentifier>
     </Filter>
     <Filter Include="MemoryShare">
-      <UniqueIdentifier>{1b2c51b7-e035-463d-a148-2b30900fa68c}</UniqueIdentifier>
+      <UniqueIdentifier>{2aec802a-a6f7-46b2-aa1b-36286f0cdd0d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Pruebas">
-      <UniqueIdentifier>{83584663-d231-48fe-a6d1-7fd93ac2c591}</UniqueIdentifier>
+      <UniqueIdentifier>{01847f60-e4df-4732-887a-bf608338f631}</UniqueIdentifier>
     </Filter>
     <Filter Include="Tupla">
-      <UniqueIdentifier>{7704ef10-4cdc-4823-9d59-4d12f38e6bfa}</UniqueIdentifier>
+      <UniqueIdentifier>{fb4f4b25-8336-427e-9248-604042b82d19}</UniqueIdentifier>
     </Filter>
     <Filter Include="Conversor">
-      <UniqueIdentifier>{cfe10f22-59e7-4b31-9eeb-8a1a512cbdab}</UniqueIdentifier>
+      <UniqueIdentifier>{a9d569d6-dfc1-46ef-8034-cc41c9ad2e24}</UniqueIdentifier>
     </Filter>
     <Filter Include="Funciones">
-      <UniqueIdentifier>{8ce54018-d74b-418d-89fe-7309093be998}</UniqueIdentifier>
+      <UniqueIdentifier>{c0287e58-77fc-4db5-b47c-0111345c483a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
