@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9239b676-8ed8-4736-9aa7-69157ce01216}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6565c634-0585-428f-9e97-0b399b966ad2}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Pruebas Unitarias">
+      <UniqueIdentifier>{cdf4ab8a-150b-432f-ada9-e78b6c82e257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{7c759925-e59e-4a57-bce0-489953eb743a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Estadistica">
+      <UniqueIdentifier>{5e3cbddd-a349-476a-aa28-43e5028ef719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\InterfazConductor">
+      <UniqueIdentifier>{48e7d5b0-4896-470d-a14c-451938291f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\InterfazPrueba">
+      <UniqueIdentifier>{58c3dca3-b77d-43c9-9e57-c18499bdd3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Manejadores">
+      <UniqueIdentifier>{bbbff818-c05d-4634-b8a3-f250bea1dd26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lista">
+      <UniqueIdentifier>{4397e8a2-4195-4f27-814a-eb0a13485c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InterfazDelSistema">
+      <UniqueIdentifier>{0c553b93-9cee-48c2-91f4-cb4eb7457a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Planilla">
+      <UniqueIdentifier>{43acf444-e879-4c50-b596-cc8c4acc9996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases auxiliares">
+      <UniqueIdentifier>{c37cdc89-2b46-4fb6-bff6-8fc213ec70d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Expresion">
+      <UniqueIdentifier>{968d2052-9862-4616-8095-58aef98f3490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Expresion\ExpresionCte">
+      <UniqueIdentifier>{0a2b8c87-29f0-483c-b9cd-949cdbd28225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Expresion\ExpresionVar">
+      <UniqueIdentifier>{891ae9e8-712a-45eb-88f9-d4d57c45404d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Expresion\ExpresionBin">
+      <UniqueIdentifier>{78240b1c-168a-4d7a-8f40-c486a299c109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pila">
+      <UniqueIdentifier>{fbff4335-7570-4c0c-83e4-66be2a94970b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConductorPruebaObl3.cpp">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebaCorreccionExpresiones.cpp">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebaCorreccionPlanilla.cpp">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebaExpresiones.cpp">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebaPlanilla.cpp">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClCompile>
+    <ClCompile Include="PruebasPropias.cpp">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClCompile>
+    <ClCompile Include="EstadisticaPrueba.cpp">
+      <Filter>Framework\Estadistica</Filter>
+    </ClCompile>
+    <ClCompile Include="ConductorPrueba.cpp">
+      <Filter>Framework\InterfazConductor</Filter>
+    </ClCompile>
+    <ClCompile Include="Prueba.cpp">
+      <Filter>Framework\InterfazPrueba</Filter>
+    </ClCompile>
+    <ClCompile Include="ManejadorImpresionPrueba.cpp">
+      <Filter>Framework\Manejadores</Filter>
+    </ClCompile>
+    <ClCompile Include="ManejadorSalidaPrueba.cpp">
+      <Filter>Framework\Manejadores</Filter>
+    </ClCompile>
+    <ClCompile Include="IteradorListaImp.cpp">
+      <Filter>Lista</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaImp.cpp">
+      <Filter>Lista</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfazDelSistemaImp.cpp">
+      <Filter>InterfazDelSistema</Filter>
+    </ClCompile>
+    <ClCompile Include="Celda.cpp">
+      <Filter>Planilla</Filter>
+    </ClCompile>
+    <ClCompile Include="Fila.cpp">
+      <Filter>Planilla</Filter>
+    </ClCompile>
+    <ClCompile Include="Hoja.cpp">
+      <Filter>Planilla</Filter>
+    </ClCompile>
+    <ClCompile Include="Planilla.cpp">
+      <Filter>Planilla</Filter>
+    </ClCompile>
+    <ClCompile Include="Asociacion.cpp">
+      <Filter>Clases auxiliares</Filter>
+    </ClCompile>
+    <ClCompile Include="Cadena.cpp">
+      <Filter>Clases auxiliares</Filter>
+    </ClCompile>
+    <ClCompile Include="Referencia.cpp">
+      <Filter>Clases auxiliares</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpresionImp.cpp">
+      <Filter>Expresion</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpresionCte.cpp">
+      <Filter>Expresion\ExpresionCte</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpresionVar.cpp">
+      <Filter>Expresion\ExpresionVar</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpresionBin.cpp">
+      <Filter>Expresion\ExpresionBin</Filter>
+    </ClCompile>
+    <ClCompile Include="PilaImp.cpp">
+      <Filter>Pila</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constantes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TipoRetorno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConductorPruebaObl3.h">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebaCorreccionExpresiones.h">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebaCorreccionPlanilla.h">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebaExpresiones.h">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebaPlanilla.h">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClInclude>
+    <ClInclude Include="PruebasPropias.h">
+      <Filter>Pruebas Unitarias</Filter>
+    </ClInclude>
+    <ClInclude Include="EstadisticaPrueba.h">
+      <Filter>Framework\Estadistica</Filter>
+    </ClInclude>
+    <ClInclude Include="ConductorPrueba.h">
+      <Filter>Framework\InterfazConductor</Filter>
+    </ClInclude>
+    <ClInclude Include="Prueba.h">
+      <Filter>Framework\InterfazPrueba</Filter>
+    </ClInclude>
+    <ClInclude Include="ManejadorImpresionPrueba.h">
+      <Filter>Framework\Manejadores</Filter>
+    </ClInclude>
+    <ClInclude Include="ManejadorSalidaPrueba.h">
+      <Filter>Framework\Manejadores</Filter>
+    </ClInclude>
+    <ClInclude Include="IteradorListaImp.h">
+      <Filter>Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="Lista.h">
+      <Filter>Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaImp.h">
+      <Filter>Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfazDelSistema.h">
+      <Filter>InterfazDelSistema</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfazDelSistemaImp.h">
+      <Filter>InterfazDelSistema</Filter>
+    </ClInclude>
+    <ClInclude Include="Celda.h">
+      <Filter>Planilla</Filter>
+    </ClInclude>
+    <ClInclude Include="Fila.h">
+      <Filter>Planilla</Filter>
+    </ClInclude>
+    <ClInclude Include="Hoja.h">
+      <Filter>Planilla</Filter>
+    </ClInclude>
+    <ClInclude Include="Planilla.h">
+      <Filter>Planilla</Filter>
+    </ClInclude>
+    <ClInclude Include="Asociacion.h">
+      <Filter>Clases auxiliares</Filter>
+    </ClInclude>
+    <ClInclude Include="Cadena.h">
+      <Filter>Clases auxiliares</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterable.h">
+      <Filter>Clases auxiliares</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterador.h">
+      <Filter>Clases auxiliares</Filter>
+    </ClInclude>
+    <ClInclude Include="Referencia.h">
+      <Filter>Clases auxiliares</Filter>
+    </ClInclude>
+    <ClInclude Include="Expresion.h">
+      <Filter>Expresion</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpresionImp.h">
+      <Filter>Expresion</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpresionCte.h">
+      <Filter>Expresion\ExpresionCte</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpresionVar.h">
+      <Filter>Expresion\ExpresionVar</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpresionBin.h">
+      <Filter>Expresion\ExpresionBin</Filter>
+    </ClInclude>
+    <ClInclude Include="Pila.h">
+      <Filter>Pila</Filter>
+    </ClInclude>
+    <ClInclude Include="PilaImp.h">
+      <Filter>Pila</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
